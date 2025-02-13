@@ -15,14 +15,14 @@ This Python game combines Hangman, Tic-Tac-Toe, and Rock-Paper-Scissors (RPS). P
    - The game continues until **a player wins Tic-Tac-Toe** or **the Hangman word is fully guessed**.  
    - If the board fills up without a winner, it's a draw.  
 
-## 🔧 Features  
+## Features  
 ✅ Random word selection for Hangman  
 ✅ Turn-based play (X & O)  
 ✅ Simple text-based Tic-Tac-Toe board  
 ✅ RPS as a turn-saving mechanic  
 ✅ Input validation for a smooth experience  
 
-## 🏆 Win Conditions  
+## Win Conditions  
 - **Tic-Tac-Toe Win:** A player forms a row, column, or diagonal of 3 Xs or Os.  
 - **Hangman Win:** The word is fully guessed before Tic-Tac-Toe ends.  
 - **Draw:** If neither game is won, it's a tie.
