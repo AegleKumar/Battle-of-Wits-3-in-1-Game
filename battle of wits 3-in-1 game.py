@@ -1,11 +1,11 @@
 import random
-
-# Hangman Word List (Manually Selecting Word)
+print("WELCOME TO THE GAME")
+# Hangman Word List 
 words = ["python", "developer", "program", "algorithm", "variable"]
-secret_word = words[random.randint(0, len(words) - 1)]  # Select a random word without using choice()
+secret_word = words[random.randint(0, len(words) - 1)]  # Select a random word
 guessed_letters = set()
 
-# Tic-Tac-Toe Board (No List Comprehension)
+# Tic-Tac-Toe Board 
 board = [
     [" ", " ", " "],
     [" ", " ", " "],
@@ -64,7 +64,7 @@ def play_rps():
 
     # Select RPS for computer manually
     computer_index = random.randint(0, 2)  # Get a random index
-    computer_choice = rps_choices[computer_index]  # Pick RPS move from list
+    computer_choice = rps_choices[computer_index]  # Picks RPS move from list
     print("Computer chose:", computer_choice)
 
     if player_choice == computer_choice:
